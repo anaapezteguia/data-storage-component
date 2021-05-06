@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.attribution {
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  display: block;
+  height: 75px; }
+  .attribution__link {
+    color: #3e52a3; }
+
+.block {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */
