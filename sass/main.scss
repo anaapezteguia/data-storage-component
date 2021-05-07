@@ -37,6 +37,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .wrapper {
   margin: auto 15px;
@@ -46,6 +47,7 @@ body {
   background-color: $dark;
   color: $light;
   border-radius: 10px;
+  min-width: 375px;
 }
 .dataHeader {
   margin-bottom: 20px;
