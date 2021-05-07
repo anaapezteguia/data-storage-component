@@ -21,35 +21,37 @@
   </head>
   <body>
     <main class="main">
-      <aside class="dataHeader">
-        <img class="dataHeader__logo" src="./images/logo.svg" alt="Fylo logo" />
-        <div class="dataHeader__icons">
+      <div class="wrapper">
+        <aside class="dataHeader">
           <img
-            class="document"
-            src="./images/icon-document.svg"
-            alt="document icon"
+            class="dataHeader__logo"
+            src="./images/logo.svg"
+            alt="Fylo logo"
           />
-          <img
-            class="folder"
-            src="./images/icon-folder.svg"
-            alt="folder icon"
-          />
-          <img
-            class="upload"
-            src="./images/icon-upload.svg"
-            alt="upload icon"
-          />
-        </div>
-      </aside>
-      <aside class="dataStorage">
-        <div class="dataStorage__usedSpace">
-          <p class="statement">You’ve used 815 GB of your storage</p>
-          <p class="availableSpace">185 <span class="gbLeft">GB Left</span></p>
-        </div>
-        <div class="dataStorage__progressBar">
-          <span class="empty">0 GB </span><span class="full">1000 GB</span>
-        </div>
-      </aside>
+          <div class="dataHeader__icons">
+            <span class="icon">
+              <img src="./images/icon-document.svg" alt="document icon" />
+            </span>
+            <span class="icon">
+              <img src="./images/icon-folder.svg" alt="folder icon" />
+            </span>
+            <span class="icon">
+              <img src="./images/icon-upload.svg" alt="upload icon" />
+            </span>
+          </div>
+        </aside>
+        <aside class="dataStorage">
+          <div class="dataStorage__usedSpace">
+            <p class="statement">You’ve used 815 GB of your storage</p>
+            <p class="availableSpace">
+              185 <span class="gbLeft">GB Left</span>
+            </p>
+          </div>
+          <div class="dataStorage__progressBar">
+            <span class="empty">0 GB </span><span class="full">1000 GB</span>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <footer class="attribution">
