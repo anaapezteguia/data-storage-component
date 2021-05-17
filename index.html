@@ -20,14 +20,10 @@
     <title>Frontend Mentor | Fylo data storage component</title>
   </head>
   <body>
-    <main class="main">
-      <div class="wrapper">
+    <div class="wrapper">
+      <main class="main">
         <aside class="dataHeader">
-          <img
-            class="dataHeader__logo"
-            src="./images/logo.svg"
-            alt="Fylo logo"
-          />
+          <img class="dataHeader__logo" src="./images/logo.svg" alt="" />
           <div class="dataHeader__icons">
             <span class="icon">
               <img src="./images/icon-document.svg" alt="document icon" />
@@ -42,18 +38,27 @@
         </aside>
         <aside class="dataStorage">
           <div class="dataStorage__usedSpace">
-            <p class="statement">You’ve used 815 GB of your storage</p>
-            <p class="availableSpace">
-              185 <span class="gbLeft">GB Left</span>
+            <p class="statement">
+              You’ve used <span class="highlight">815 GB</span> of your storage
             </p>
+            <div class="dataStorage__availableSpace">
+              <span class="number">185</span>
+              <span class="gbLeft">GB Left</span>
+              <div class="triangle"></div>
+            </div>
           </div>
-          <div class="dataStorage__progressBar">
-            <span class="empty">0 GB </span><span class="full">1000 GB</span>
+          <div class="dataStorage__progressBarBg">
+            <div class="dataStorage__progressBar">
+              <div class="btn"></div>
+            </div>
+          </div>
+          <div class="dataStorage__progressBarNumbers">
+            <span class="highlight">0 GB </span
+            ><span class="highlight">1000 GB</span>
           </div>
         </aside>
-      </div>
-    </main>
-
+      </main>
+    </div>
     <footer class="attribution">
       Challenge by
       <a
