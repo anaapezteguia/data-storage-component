@@ -14,10 +14,9 @@ Your users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- ... (I will update when finished)
-<!-- - Flexbox
-- CSS Grid
-- Mobile-first workflow -->
+- Flexbox
+- CSS positioning
+- Mobile-first workflow
 
 ## Author
 
